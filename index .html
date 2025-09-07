@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Elkin Cruz</title>
+    <meta name="description" content="Portafolio de Elkin Cruz - Desarrollador de software y apasionado por la nutrición.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Portafolio de Elkin Cruz</div>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">Acerca de mí</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Acerca de mí -->
+    <section id="about" class="section-about">
+        <h2>Acerca de mí</h2>
+        <div class="about-container">
+            <a href="sobremi.html" title="Más sobre mí">
+                <img src="perfil.jpg" alt="Foto de perfil de Elkin Cruz" class="profile-img">
+            </a>
+            <p>
+                Joven soñador y entusiasta, apasionado por la tecnología y la innovación, con un fuerte deseo de convertirse en desarrollador de software. Se caracteriza por su curiosidad, creatividad y perseverancia, siempre buscando aprender y superar nuevos retos. Además, se preocupa por crecer como persona, fomentando valores como la honestidad, la empatía y la responsabilidad, con el objetivo de impactar positivamente en su entorno y en la sociedad.
+            </p>
+        </div>
+        <p>
+            Desde pequeño soñé con convertirme en desarrollador de software, aunque las oportunidades para acercarme a este mundo eran limitadas. Con el tiempo, también descubrí un interés por la nutrición, influido por mis hábitos y entorno cotidiano. Esto despertó en mí la curiosidad por comprender cómo la alimentación puede impactar en el bienestar, motivándome a profundizar en este campo y explorar formas de apoyar a otros en su equilibrio personal.
+        </p>
+    </section>
+
+    <!-- Habilidades -->
+   <!-- Habilidades -->
+<section id="skills" class="section-skills">
+    <h2>Habilidades</h2>
+
+    <div class="skill">
+        <p>Python</p>
+        <div class="progress"><div class="bar" style="--width: 70%;"></div></div>
+        <span class="percent">70%</span>
+    </div>
+
+    <div class="skill">
+        <p>HTML</p>
+        <div class="progress"><div class="bar" style="--width: 85%;"></div></div>
+        <span class="percent">85%</span>
+    </div>
+
+    <div class="skill">
+        <p>CSS</p>
+        <div class="progress"><div class="bar" style="--width: 65%;"></div></div>
+        <span class="percent">65%</span>
+    </div>
+
+    <div class="skill">
+        <p>JavaScript</p>
+        <div class="progress"><div class="bar" style="--width: 75%;"></div></div>
+        <span class="percent">75%</span>
+    </div>
+
+  <div class="skill">
+  <p>Nutrición</p>
+  <div class="progress">
+    <div class="bar" style="--width: 55%;">
+      <span class="percent">55%</span>
+    </div>
+  </div>
+</div>
+
+    </div>
+</section>
+    <!-- Proyectos -->
+    <section id="projects" class="section-projects">
+        <h2>Proyectos</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="proyecto1.jpg" alt="Proyecto sobre religión y filosofía">
+                <h3>La religión vs la filosofía: plano existencial</h3>
+                <p>Un análisis creativo sobre cómo la religión y la filosofía abordan las grandes preguntas de la existencia humana, explorando sus similitudes, diferencias y el impacto en la vida cotidiana.</p>
+                <a href="proyecto1.html" target="_blank">Ver más</a>
+            </div>
+            <div class="project-card">
+                <img src="proyecto2.jpg" alt="Proyecto de nutrición">
+                <h3>Estudio de Nutrición</h3>
+                <p>Breve investigación sobre hábitos alimenticios y sus beneficios para la salud.</p>
+                <a href="proyecto2.html" target="_blank">Ver más</a>
+            </div>
+            <div class="project-card">
+                <img src="proyecto3.jpg" alt="App Creativa">
+                <h3>App Creativa</h3>
+                <p>Proyecto inventado: una aplicación para planificar comidas y rutinas de bienestar.</p>
+                <a href="proyecto3.html" target="_blank">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="section-contact">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Nombre" required>
+            <input type="email" id="email" placeholder="Correo electrónico" required>
+            <textarea id="message" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+            <p id="form-msg"></p>
+        </form>
+        <p>Correo: <a href="mailto:elkincruza123@gmail.com">elkincruza123@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/ELKINCRUZ1" target="_blank">ELKINCRUZ1</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/elkin-cruz-6b1792355/" target="_blank">Perfil LinkedIn</a></p>
+    </section>
+</main>
+<div id="mensaje-mejora" style="display:none; text-align:center; margin: 2rem 0; color:#1565c0; font-size:1.2em; font-weight:bold;">
+    ¿Tienes sugerencias? ¡Déjame tu comentario para futuras mejoras!
+</div>
+
+<footer>
+    <p>&copy; 2025 Elkin Aaron Cruz Almeida. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
